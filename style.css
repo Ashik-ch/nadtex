@@ -344,16 +344,15 @@ input:not(:checked)+label+.ci {
   height: 6rem;
   background-color: rgb(2, 40, 63);
   z-index: -1;
-  margin: -17% 0 0 8%;
+  margin: -17% 0 0 10%;
   opacity: 0;
-  /* Start with opacity 0 */
   position: absolute;
   transition: opacity 0.5s ease-in-out, margin 0.5s ease-in-out;
-  /* Add transitions */
 }
 
 .quote-item:hover::before {
-  margin: -7% 0 0 8%;
+  /* margin: -7% 0 0 8%; */
+  margin: -6% 0 0 10%;
   opacity: 1;
 }
 
